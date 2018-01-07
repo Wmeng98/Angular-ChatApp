@@ -1,0 +1,8 @@
+
+
+<div class="feed">
+  <div *ngFor="let message of feed | async"> <!-- pipe async will actually subscribe to our feed observable -->
+    <app-message [chatMessage]=message></app-message> <!-- for each message we pass instance of that our app-message component -->
+    
+  </div>
+</div>

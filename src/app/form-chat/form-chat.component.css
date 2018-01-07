@@ -1,0 +1,54 @@
+
+.flex-cont {
+    flex-direction: column;
+}
+
+.chatInput{
+    flex: 3;
+    font-size: 1.3em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eee;
+    color: #000;
+    transition: 0.1s ease-out;
+    padding-left: 80px;
+    opacity: 0.8;
+}
+
+.chatInput:hover{
+    background-color: rgb(138, 203, 144);
+    color: #222;
+    transition: 0.2s ease-in;
+
+}
+
+
+/* For mobile */
+.chatInput:focus{
+    background-color: #E4F1FE;
+    color: #222;
+    transition: 0.2s ease-in;
+}
+
+.chatButton{
+    flex: 1;
+    padding: 10px;
+    padding: 8px 24px;
+    font-size: 1.3em;
+    font-family: 'Droid Sans', sans-serif;
+    background-color:rgb(105, 160, 211);
+    color: rgb(122, 221, 243);
+    transition: 0.2s ease-out;
+    min-width: 50px;
+    opacity: 0.7;
+}
+
+.chatButton:hover{
+    background-color: rgb(110, 193, 232);
+}
+
+@media (max-width: 400px) {
+    .chatButton {
+        font-size: 60%;
+        padding-left: 0px;
+    }
+}

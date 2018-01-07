@@ -1,0 +1,69 @@
+.navBar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(145, 203, 225);
+}
+
+#padR {
+    padding-right: 0px;
+}
+
+.logout {
+    background-color:rgb(129, 211, 129);
+    border-radius: 20%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+.logout:focus {
+    background-color: rgb(219, 228, 219);
+}
+.logout:hover {
+    background-color: rgb(219, 228, 219);
+    transition: ease-in 0.2s;
+}
+
+#heading{
+    color: rgb(7, 75, 17);
+    flex: 4;
+    padding: 24px 0px 24px 10px;
+    height: 60px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(72, 184, 89);
+}
+
+.links a:hover {
+    color: rgb(120, 177, 146);
+    transition: ease-in 0.2s;
+}
+
+.links{
+    padding-top: 32px;
+    padding-right: 30px;
+    white-space: nowrap;
+    display: block;
+}
+
+.colorme {
+    color: rgb(72, 184, 89);
+}
+
+.links a{
+    color: rgb(51, 126, 63);
+    text-decoration: none;
+    transition: ease-in 0.2s;
+    padding-right: 12px;
+    overflow: hidden;
+}
+
+
+#userEmail {
+    padding-right: 16px;
+    font-weight: bold;
+    color: rgb(51, 126, 63);
+
+}

@@ -1,0 +1,36 @@
+
+
+<div class="messageContainer" [ngClass]="{'ownMsgCont':ownMsg}">
+  
+  <div class="messageContent" [ngClass]="{'ownMsgContent':ownMsg}">
+  
+    <span class="wrap">
+         {{messageContent}}
+    </span>
+    
+  
+  </div>
+
+  <div class="space">
+
+  </div>
+
+  <div class="messageData" [ngClass]="{'ownMsgData':ownMsg}">
+  
+    <span class="timeStamp" [ngClass]="{'ownTimeStmp':ownMsg}">
+    
+      {{timeStamp | date:'medium'}}
+    
+    </span>
+  
+    <span class="sender"  [ngClass]="{'ownMsgSender':ownMsg}">
+  
+      {{userName}}
+  
+    </span>
+  
+  
+  </div>
+  
+
+</div>

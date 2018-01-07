@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('chat-app App', () => {
+describe('global-chat App', () => {
   let page: AppPage;
 
   beforeEach(() => {

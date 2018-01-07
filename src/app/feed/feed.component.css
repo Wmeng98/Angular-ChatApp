@@ -1,0 +1,12 @@
+
+.message{
+    height: 50%;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+}
+

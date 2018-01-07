@@ -1,0 +1,66 @@
+.messageContainer{
+    display: flex;
+    height: auto;
+    max-width: 95%;
+    min-width: 400px;
+    border-radius: 15px;
+    align-items:stretch;
+    margin: 1% 0 1% 0;
+}
+
+.wrap {
+    display: block;
+    word-wrap: break-word;
+} /* Idea for word wrapping is to wrap the text in a span first*/
+
+.ownMsgCont{
+    background-color: rgba(1, 155, 65, 0.46);
+}
+
+.space {
+    flex: 1;
+    min-width: 5%;
+     background-color: rgb(152, 240, 181);
+}
+
+.messageData{
+    flex: 1;
+    background-color: rgb(138, 198, 226);
+
+    padding: 10px;
+    font-size: 0.7em;
+    border-radius: 10%;
+}
+
+.sender{
+    display: block;
+    color: #222;
+    font-weight: bold;
+}
+
+.ownMsgSender{
+    color: #E1F5FE;
+}
+
+.timestamp {
+    color: #555;
+    font-style: italic;
+}
+
+.ownMsgStmp{
+    color: rgb(28, 34, 34);
+}
+
+.messageContent{
+    height: auto;
+    flex: 9;
+    min-width: 10%;
+    background-color: #fff;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 3px 6px rgba(3, 109, 54, 0.851);
+}
+
